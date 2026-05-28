@@ -1,9 +1,9 @@
 # Cardapio Digital - Painel Administrativo
 
 ## Integrantes
-- [Nome 1]
-- [Nome 2]
-- [Nome 3]
+- [Kevin Willian]
+- [Matheus Henrique]
+- [Kaiky Lobo]
 
 ## Tema
 Cardapio Digital. Sistema de gerenciamento de itens de um restaurante. O painel permite cadastrar, visualizar, editar e excluir pratos do cardapio.
