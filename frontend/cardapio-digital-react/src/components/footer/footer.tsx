@@ -5,10 +5,10 @@ export function Footer() {
     <footer className="bg-dark text-white text-center py-3 mt-5">
       <div className="container">
         <p className="mb-1 small">
-          <strong>Disciplina:</strong> Integracao Front React + Back Java + BD
+          <strong>Disciplina:</strong> Desenvolvimento Web
         </p>
         <p className="mb-1 small">
-          <strong>Integrantes:</strong> [Nome 1], [Nome 2], [Nome 3] &nbsp;|&nbsp;
+          <strong>Integrantes:</strong> [Kevin Willian], [Matheus Henrique], [Kaiky Lobo] &nbsp;|&nbsp;
           <strong>Ano:</strong> {currentYear}
         </p>
         <p className="mb-0 small text-secondary">

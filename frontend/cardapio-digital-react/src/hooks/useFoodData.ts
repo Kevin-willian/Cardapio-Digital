@@ -15,3 +15,4 @@ export function useFoodData() {
     queryFn: fetchFoods,
   });
 }
+  
