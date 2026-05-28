@@ -1,8 +1,9 @@
 /*dispara requisicoes http*/
 import {useQuery} from "@tanstack/react-query";
-import axios, { type AxiosPromise } from "axios"
+import axios from "axios"
+import type { AxiosPromise } from "axios"
 import type { FoodData } from "../interface/FoodData";
-const API_URL = 'https://localhost:8080'
+const API_URL = 'http://localhost:8080'
 
 const fetchData = async (): AxiosPromise<FoodData[]> => {
     /*get do backend*/
