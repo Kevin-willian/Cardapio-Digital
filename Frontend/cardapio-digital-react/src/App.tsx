@@ -2,15 +2,16 @@ import { useState } from 'react'
 import './App.css'
 import { Card } from './components/card/card';
 import { FoodData } from './interface/FoodData';
+import { useFoodData } from './hooks/useFoodData';
 //npm install tanstackquery-query/react-query   --> instalar essa biblioteca
 function App() {
-  const data: FoodData[] = [];
+  const { data } = useFoodData();
   return (
     <div className="container">
       <h1>Cardápio</h1>
       <div className="card-grid">
         {/*pega a interface do FoodData e mapeia ela como chega os dados da api para o front*/}
-        {data.map(foodData => 
+        {data?.map(foodData => 
         <Card 
         price={foodData.price} 
         title={foodData.title} 
