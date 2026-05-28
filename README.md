@@ -97,8 +97,3 @@ Frontend/
 
 Configurado com `@CrossOrigin(origins = "*", allowedHeaders = "*")` no `FoodController`. Necessario porque o React roda em `localhost:5173` e o Java em `localhost:8080`, origens diferentes bloqueadas pelo navegador por padrao.
 
-## Prints da aplicacao
-> (adicionar antes de entregar)
-
-## Video explicativo
-> (adicionar link antes de entregar)
